@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "roboto";
+    src: url(Roboto-Medium.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: roboto, sans-serif;
+}
+
+.header {
+    margin: 15px auto;
+    text-align: center;
+    color: white;
+    width: 25ch;
+    line-height: 1.6;
+    font-size: 1.3rem;
+}
+
+.mainDiv {
+    width: 260px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 1px;
+}
+
+.bible {
+    text-align: center;
+    padding: 15px 0px;
+    color: white;
+    font-size: 1.0rem;
+}
+
+.headerDiv {
+    width: 260px;
+    background-color: rgba(255, 100, 4, 0.937);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 2;
+}
+
+.shape {
+    width: 230px;
+    height: 42px;
+    border-radius: 50px;
+    border: 1.5px solid rgba(128, 128, 128, 0.359);
+    margin: 14px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: rgba(0, 0, 0, 0.543);
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    color: rgba(255, 100, 4, 0.937);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid rgba(255, 100, 4, 0.937);
+    margin-left: 10px;
+}
+
+.letter {
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.answer {
+    font-size: 0.8rem;
+}
