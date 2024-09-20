@@ -82,3 +82,12 @@ body {
 .answer {
     font-size: 0.8rem;
 }
+
+@media screen and (min-width: 1000px){
+    .mainDiv {
+        background-color: teal;
+    }
+    .shape {
+        border: 1.5px solid white;
+    }
+}
